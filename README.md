@@ -26,8 +26,19 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the script using:
+### GUI Mode
+Simply run the script without any arguments:
+```bash
+python combine_pdfs.py
+```
 
+This will open file dialogs to:
+1. Select the front PDF
+2. Select the back PDF
+3. Choose where to save the combined PDF
+
+### Command Line Mode
+You can still use the command line interface by providing arguments:
 ```bash
 python combine_pdfs.py front_pdf back_pdf output_pdf
 ```
